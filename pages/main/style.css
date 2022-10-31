@@ -15,28 +15,31 @@ header {
     height: 80px;
     left: 0px;
     top: 0px;
-    background: red;
+    background: #000000;
     backdrop-filter: blur(2px);
 }
-.navbarLogoDiv {
+.navbar-logo-div {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aqua;
     height: 100%;
 }
-.navbarLogo {
+.nav-bar-up {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.navbar-logo {
     width: 82px;
     height: 52px;
 }
-.navBar {
-    background-color: yellow;
+.nav-bar {
     height: 100%;
-
 }
-.navBar, ul {
-    width: 55.4%;
-    height: 46px;
+.nav-bar, ul {
+    width: 30%;
+    height: 60%;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -45,32 +48,64 @@ header {
     display: flex;
     justify-content: space-between;
     position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-
-
+    padding-top: 10px;
+    padding-left: 20px;
 }
-.navBar, li a {
+.nav-bar, li a {
     display: block;
     text-align: center;
-    padding: 0px;
     text-decoration: none;
+    color: #FFFFFF;
 }
-.navLeft {
+.about {
+    color: #FE9013;
+}
+.nav-left {
     display: flex;
     background-color: browm;
     height: 100%;
     width: 75%;
     margin-left: 220px;
 }
-.designBlock {
+.design-block {
     margin-right: 220px;
-    background-color: blue;
     height: 100%;
     width: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.design-block a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.favorite-animal-block {
+    background-image: url(../../assets/images/Giant_Panda.png);
+    width: 100%;
+    height: 780px;
+    background-size: cover;
+}
+.cirkle {
+    width: 465px;
+    height: 465px;
+    background-color: #FE9013;
+    border-radius: 100%;
+    margin-left: 807px;
+    margin-top: 12px;
+    position: absolute;
+}
+.text {
+    width: 500.31px;
+    height: 400px;
+    border: 5px solid black;
+    margin-left: 880px;
+    margin-top: 86px;
+    position: absolute;
+}
+.text p {
+    font-size: 106.5px;
+    line-height: 79.87px;
+}
 
+
+text-transform: uppercase;
