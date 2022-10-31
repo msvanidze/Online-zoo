@@ -88,7 +88,7 @@ header {
 .cirkle {
     width: 465px;
     height: 465px;
-    background-color: #FE9013;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border-radius: 100%;
     margin-left: 807px;
     margin-top: 12px;
@@ -113,3 +113,78 @@ header {
 .text span {
     color: #FFEE2E;
 }
+.button-watch {
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    position: absolute;
+    margin-left: 983px;
+    margin-top: 626px;
+}
+.button-watch p {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 22.4px;
+    font-size: 16px;
+    text-align: center;
+}
+.backstage-block {
+    height:629px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.column1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+}
+.column1-img {
+    height: 403px;
+    width: 609px;
+}
+.column2 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-column2 {
+    width: 465px;
+    height: 403px;
+}
+.sub-column2 h2 {
+    font-size: 48px;
+    line-height: 57.6px;
+    font-weight: 400;
+    margin: 0;
+}
+.sub-column2-first-p {
+    font-size: 16px;
+    line-height: 20.8px;
+    font-weight: 400;
+}
+.sub-column2-second-p {
+    font-size: 24px;
+    line-height: 28.8px;
+    font-weight: 400;
+}
+.sub-column2-third-p {
+    font-size: 16px;
+    line-height: 22.4px;
+    font-weight: 400;
+}
+/* .flower-1 {
+    left: 1400px;
+    border: 5px solid black
+}
+.flower-1-1 {
+    width: 200px;
+    height: 605px;
+} */
