@@ -9,6 +9,8 @@ body {
     max-width: 1600px;
     margin: auto;
 }
+/* BLOCK: Header/Navigation */
+
 header {
     display: flex;
     width: 100%;
@@ -79,6 +81,9 @@ header {
     text-decoration: none;
     color: #FFFFFF;
 }
+
+/* BLOCK: Big PANDA */
+
 .favorite-animal-block {
     background-image: url(../../assets/images/Giant_Panda.png);
     width: 100%;
@@ -137,6 +142,9 @@ header {
     align-items: center;
     justify-content: center;
 }
+
+/* BLOCK: Guy with HAT */
+
 .column1 {
     height: 100%;
     width: 50%;
@@ -188,3 +196,48 @@ header {
     width: 200px;
     height: 605px;
 } */
+
+/* BLOCK: ANIMALS in 6 CARDS */
+
+.six-card-main {
+    width: 100%;
+    height: 1100px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.six-card {
+    width: 1248px;
+    height: 932px;
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.six-card div {
+    height: 426px;
+    width: 366px;
+    background-color: red;
+    margin: 25px;
+}
+.card-bottom-button {
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.card-bottom-button p {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 22.4px;
+    font-size: 16px;
+    text-align: center;
+}
