@@ -271,6 +271,117 @@ header {
     left: 321px;
     top: 15px;
 }
+
+/* BLOCK: Pick AND Feed */
+
 .pick-and-feed {
-    
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    opacity: 0.9;
+    width: 100%;
+    height: 1004px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pick-and-feed-inner-div {
+    height: 835px;
+    background: rgba(253, 253, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    height: 835px;
+    width: 1160px;
+}
+.pick-and-feed-text h2 {
+    color: #FE9013;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57.6px;
+    text-align: center;
+
+}
+.pick-and-feed-text-1 {
+    font-weight: 400;
+    line-height: 28.8px;
+    font-size: 24px;
+    padding-left: 99px;
+}
+.pick-and-feed-text-2 {
+    font-weight: 500;
+    line-height: 20.8px;
+    font-size: 16px;
+    padding-left: 99px;
+}
+.pick-and-feed-text-3 {
+    font-weight: 400;
+    line-height: 20.8px;
+    font-size: 16px;
+    padding-left: 99px;
+}
+.pick-and-feed-text h3 {
+    color: #333B41;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46.8px;
+    text-align: center;
+}
+.how-it-works {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.how-it-works-divs {
+    height: 168px;
+    width: 168px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #F9804B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.how-it-works-1-img {
+    height: 60px;
+    width: 108px;
+}
+.how-it-works-2-img {
+    width: 80px;
+}
+.how-it-works-3-img {
+    height: 71.6px;
+}
+.arrow-div {
+    width: 130px;
+    height: 35.08px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow {
+    width: 69px;
+    height: 35.08px;
+}
+.how-it-works-button {
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 60px;
+}
+.how-it-works-button p {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 22.4px;
+    font-size: 16px;
+    text-align: center;
+}
+.how-it-works-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
 }
