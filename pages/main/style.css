@@ -202,26 +202,24 @@ header {
 .six-card-main {
     width: 100%;
     height: 1100px;
-    background-color: aqua;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 .six-card {
-    width: 1248px;
-    height: 932px;
-    background-color: green;
+    width: 1260px;
+    height: 850px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-.six-card div {
+.card-div {
     height: 426px;
     width: 366px;
-    background-color: red;
     margin: 25px;
+    border: 2px solid #fc8b22;
+    border-radius: 5px;
 }
 .card-bottom-button {
     width: 298px;
@@ -240,4 +238,36 @@ header {
     line-height: 22.4px;
     font-size: 16px;
     text-align: center;
+}
+.card-main-img {
+    height: 366px;
+    width: 366px;
+    border-radius: 5px;
+}
+.card-main-txt {
+    position: relative;
+}
+.card-main-txt h4 {
+    text-transform: uppercase;
+    line-height: 22.4px;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+}
+.card-main-txt p {
+    text-transform: uppercase;
+    line-height: 18px;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+}
+.card-main-txt img {
+    width: 33px;
+    height: 29.15px;
+    position: absolute;
+    left: 321px;
+    top: 15px;
 }
