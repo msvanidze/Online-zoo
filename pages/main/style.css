@@ -385,3 +385,130 @@ header {
     font-size: 16px;
     line-height: 140%;
 }
+
+/* Testimonials block */
+
+.testimonials {
+    width: 100%;
+    height: 919px;
+}
+.testimonials-text {
+    width: 100%;
+    text-align: center;
+}
+.testimonials-text h3 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46.8px;
+    padding: 0;
+    margin: 0;
+    padding-top: 140px;
+    padding-bottom: 47px;
+}
+.testimonials-columns {
+    width: 100%;
+    height: 391px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonials-columns-inner {
+    width: 1207px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.testimonials-column {
+    width: 268px;
+    height: 391px;
+    border-radius: 20px;
+    background: #F1F3F2;
+    border: 2px solid rgba(243, 169, 248, 0.66);
+}
+.testimonials-column img {
+    height: 37px;
+    width: 37px;
+    padding-left: 16px;
+    padding-top: 15px;
+}
+.testimonials-column-top {
+    display: flex;
+    align-items: center;
+}
+.testimonials-column-top h4 {
+    padding: 15px 0 1px 10px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.testimonials-column-top h5 {
+    padding: 0 0 0 10px;
+    margin: 0;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #BDBDBD;
+}
+
+.testimonials-column p {
+    padding: 10px 15px 19px 15px;
+    margin: 0;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #767474;
+}
+.line-scrol {
+    width: 100%;
+    height: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 22px;
+}
+.line-scrol-full {
+    width: 599px;
+    height: 8px;
+    display: flex;
+    align-items: center;
+    background: #F5F7F6;
+    border-radius: 5px;
+    border: 1px solid rgba(243, 169, 248, 0.66);
+}
+.line-scrol-left {
+    width: 115.9px;
+    height: 6px;
+    background: #FE9013;
+    border-radius: 5px;
+}
+.testimonials-button {
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 195px;
+}
+.testimonials-button p {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 22px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* FOOTER block */
+
+footer {
+    width: 100%;
+    height: 443px;
+    background-color: #111115;
+}
