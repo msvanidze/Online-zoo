@@ -667,9 +667,12 @@ footer {
 
 /* INTERACTIVE */
 
-
-
-cursor: pointer,
-background,
-text-decoration: underline,
-color.
+.button:hover{
+    cursor: pointer;
+    background: #000000;
+}
+.button-2:hover{
+    cursor: pointer;
+    background: #4B9200;
+    color: #F1F3F2;
+}
