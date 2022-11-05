@@ -1,1 +1,0 @@
-alert("Almost DONE! I will finish the project today :)")
