@@ -355,6 +355,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .arrow {
     width: 69px;
@@ -631,20 +632,27 @@ footer {
     width: 129px;
     height: 46px;
     margin-left: 10px;
+    color: #4B9200;
 }
 .footer-right-down-p1 {
     margin: 0 !important;
-    padding: 141px 0 10px 171px !important;
+    padding: 141px 0 10px 140px !important;
     font-weight: 100 !important;
     font-size: 16px !important;
     line-height: 20.8px !important;
     color: #FFFFFF !important;
 }
 .footer-right-down-p2 {
-    padding: 0 0 0 171px !important;
+    padding: 0 0 0 140px !important;
     margin: 0 !important;
     font-weight: 100 !important;
     font-size: 16px !important;
     line-height: 20.8px !important;
     color: #FFFFFF !important;
 }
+
+
+cursor: pointer,
+background,
+text-decoration: underline,
+color.
