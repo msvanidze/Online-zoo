@@ -91,6 +91,27 @@ header {
 
 /* BLOCK: Big PANDA */
 
+.round-button {
+    width: 62px;
+    height: 62px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 100%;
+    position: absolute;
+    margin-bottom: -110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.round-button-1 {
+    margin-left: 1350px;
+}
+.round-button-2 {
+    margin-right: 1350px;
+}
+.round-button img {
+    width: 16px;
+    height: 8px;
+}
 .favorite-animal-block {
     background-image: url(../../assets/images/Giant_Panda.png);
     width: 100%;
@@ -195,17 +216,6 @@ header {
     line-height: 22.4px;
     font-weight: 400;
 }
-/* .flower-1 {
-    left: 1400px;
-    border: 5px solid black
-}
-.flower-1-1 {
-    width: 200px;
-    height: 605px;
-} */
-
-/* BLOCK: ANIMALS in 6 CARDS */
-
 .six-card-main {
     width: 100%;
     height: 1100px;
@@ -237,6 +247,7 @@ header {
     align-items: center;
     justify-content: center;
     margin: auto;
+    margin-bottom: 50px;
 }
 .card-bottom-button p {
     text-transform: uppercase;
@@ -250,6 +261,8 @@ header {
     height: 366px;
     width: 366px;
     border-radius: 5px;
+    z-index: 2;
+    position: relative;
 }
 .card-main-txt {
     position: relative;
@@ -675,4 +688,51 @@ footer {
     cursor: pointer;
     background: #4B9200;
     color: #F1F3F2;
+}
+.nav-bar li > a::after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    top: 5px;
+    border-radius: 5px;
+    background: transparent;
+    transition: all 0.3s;
+}
+.nav-bar li > a:hover::after, li > a.active-nav::after {
+    width: 100%;
+    background: #FE9013;
+}
+.design-block a:hover {
+    color: #FE9013;
+}
+.card-main-img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.hovercap {
+    visibility: none; opacity: 0;
+    transition: opacity 0.3s;
+    position: absolute;
+    z-index: 3;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-align: center;
+    width: 200px;
+}
+.card-main:hover .hovercap {
+    visibility: visible; opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.card-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.round-button:hover {
+    cursor: pointer;
+    background: #000000;
 }
