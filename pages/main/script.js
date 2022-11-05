@@ -1,1 +1,1 @@
-alert("If I had 2 extra days I would finish the project :)")
+alert("Almost DONE! I will finish the project today :)")
