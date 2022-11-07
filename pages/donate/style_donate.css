@@ -85,7 +85,6 @@ header {
 .big-panda {
     width: 100%;
     height: 390px;
-    background-color: green;
     background-image: url(../../assets/images/Giant-panda-donate.png);
     background-size: cover;
 }
