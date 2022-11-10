@@ -162,43 +162,101 @@ header {
 .pick-and-feed-p-2 {
     margin: 0;
     padding: 0;
+    margin-left: 96px;
     font-weight: 400;
     font-size: 16px;
     line-height: 22.4px;
     color: #000000;
+    margin-bottom: 17px;
 }
 .panda-4x {
-    height: 198.47px;
+    height: 246px;
     width: 100%;
-    margin-top: 107px;
-    background-color: red;
+    margin-top: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .panda-4x-left {
+    width: 159px;
+    height: 91px;
 
+}
+.panda-4x-left-div-img-1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panda-4x-left-img-1 {
+    width: 82px;
+    height: 58px;
+    margin-bottom: -20px;
 }
 .panda-4x-left-p1 {
     margin: 0;
     padding: 0;
-    font-weight: 500;
-    font-size: 72px;
-    line-height: 57.6px;
-    color: #000000;
-}
-.panda-4x-left-p2 {
-    margin: 0;
-    padding: 0;
+    margin-top: 5px;
     font-weight: 400;
     font-size: 16px;
     line-height: 22.4px;
     color: #333B41;
 }
-.panda-4x-right-img {
-    width: 268.49px;
-    height: 198.47px;
+.panda-4x-right-img-1 {
+    width: 14px;
+    height: 14px;
+    margin-right: 64px;
+    margin-left: 11px;
+    margin-top: 25px;
 }
+.panda-4x-right-img-2 {
+    width: 284px;
+    height: 246px;
+}
+.pick-and-feed-line {
+    width: 100%;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pick-and-feed-line-1 {
+    width: 951px;
+    height: 2px;
+    background-color: #72828E;
+    border: 12.5px solid #404950;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.round-yellow {
+    height: 10px;
+    width: 10px;
+    background-color: #FFEE2E;
+    border-radius: 100%;
+}
+.round-yellow-2 {
+    width: 18.95px;
+    height: 18.95px;
+    border-radius: 100%;
+    border: 2px solid #FE9013;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.round-yellow-1 {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    border: 2px solid #FE9013;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 
 
