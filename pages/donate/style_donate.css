@@ -255,6 +255,36 @@ header {
     align-items: center;
     justify-content: center;
 }
+.donation-amounts-outer{
+    width: 100%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+}
+.donation-amounts-inner {
+    width: 960px;
+    height: 36px;
+}
+.donation-amounts {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 58px 0 58px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.donation-amounts li {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36.4px;
+    color: #333B41;
+}
+
+
 
 
 
