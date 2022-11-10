@@ -1,1 +1,1 @@
-alert(`Need 2 more days to finish :) `)
+// alert(`Need 2 more days to finish :) `)

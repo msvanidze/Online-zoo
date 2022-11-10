@@ -94,7 +94,7 @@ header {
 .main-block {
     width: 100%;
     height: 1482px;
-    background-color: red;
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,7 +102,72 @@ header {
 .main-block-inner {
     width: 1160px;
     height: 100%;
-    background-color: yellow;
+}
+.main-block-inner-h3-1 {
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46.8px;
+    color: #FFFFFF;
+}
+.main-block-inner-p-1 {
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    padding-right: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #FFFFFF;
+}
+.main-block-inner-h3-2 {
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46.8px;
+    color: #FE9013;
+}
+.pick-and-feed {
+    width: 1160px;
+    height: 964px;
+    margin-top: 60px;
+    background: rgba(255, 255, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.how-it-works-button {
+    width: 298px;
+    height: 54px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 60px;
+}
+.how-it-works-button p, .how-it-works-button a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 22.4px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
 }
 
 /* BLOCK: FOOTER */
