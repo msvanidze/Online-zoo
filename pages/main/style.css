@@ -741,6 +741,12 @@ footer {
     cursor: pointer;
     background: #000000;
 }
+.footer-ul img:hover {
+    height: 28px;
+}
+.footer-middle a:hover {
+    font-size: 18px;
+}
 
 /* Side Flowers */
 
