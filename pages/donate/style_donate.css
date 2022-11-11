@@ -101,7 +101,6 @@ header {
 }
 .main-block-inner {
     width: 1160px;
-    height: 100%;
 }
 .main-block-inner-h3-1 {
     margin: 0;
@@ -167,7 +166,6 @@ header {
     font-size: 16px;
     line-height: 22.4px;
     color: #000000;
-    margin-bottom: 17px;
 }
 .panda-4x {
     height: 246px;
@@ -180,7 +178,6 @@ header {
 .panda-4x-left {
     width: 159px;
     height: 91px;
-
 }
 .panda-4x-left-div-img-1 {
     height: 100%;
@@ -214,88 +211,152 @@ header {
     width: 284px;
     height: 246px;
 }
-.pick-and-feed-line {
-    width: 100%;
-    height: 27px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.line{
+    height: 3px;
+    width: 915px;
+    margin: 11px 0 0 25px;
+    background-color:#72828E;
 }
-.pick-and-feed-line-1 {
-    width: 951px;
-    height: 2px;
-    background-color: #72828E;
-    border: 12.5px solid #404950;
+.line-container{
+    position: relative;
+    height: 27px;
+    width: 976px;
+    border: 1px solid #404950;
     border-radius: 2px;
+    background-color: #404950;
+}
+.button-prop-container{
+    position: absolute;
+    top: -1.5px;
+    margin-left: 25px;
+    width: 920px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
-.round-yellow {
+.button-prop{
+    position: relative;
+    margin: 10px 0 0 0;
     height: 10px;
     width: 10px;
-    background-color: #FFEE2E;
-    border-radius: 100%;
+    background-color: yellow;
+    border-radius: 50%;
 }
-.round-yellow-2 {
-    width: 18.95px;
-    height: 18.95px;
-    border-radius: 100%;
-    border: 2px solid #FE9013;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.button-prop input{
+    position: absolute;
 }
-.round-yellow-1 {
+.button-prop input[type="radio"] {
+    opacity: 0.011;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.button-prop input[type="radio"]:checked + #outer-circle {
+    visibility: visible;
+    color: #FE9013;
+}
+.button-prop:hover {
+    color: silver;
+    cursor: pointer;
+}
+#outer-circle {
+    color:#333B41;
+    visibility: hidden;
+    background: transparent;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    bottom: 50%;
+    right: 50%;
+}
+#inner-circle {
+    position: absolute;
+    background: transparent;
+    border-radius: 50%;
+    height: 36px;
     width: 36px;
+    top: 50%;
+    left: 50%;
+    margin: -18px 0px 0px -18px;
+    outline: 2px solid #F9804B;
+}
+#inner-circle2 {
+    position: absolute;
+    background: transparent;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    top: 50%;
+    left: 50%;
+    margin: -10px 0px 0px -10px;
+    outline: 2px solid #F9804B;
+}
+#inner-circle3 {
+    position: absolute;
+    background: transparent;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    top: 50%;
+    left: 50%;
+    margin: -5px 0px 0px -5px;
+    background-color: yellow;
+}
+.xx11 {
+    visibility: visible;
+    position: absolute;
+    top: 12px;
+    left: -20px;
+    width: 72px;
     height: 36px;
-    border-radius: 100%;
-    border: 2px solid #FE9013;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
-.donation-amounts-outer{
-    width: 100%;
+.xx12 {
+    width: 60px;
     height: 36px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 12px;
-}
-.donation-amounts-inner {
-    width: 960px;
-    height: 36px;
-}
-.donation-amounts {
-    list-style-type: none;
-    margin: 0;
-    padding: 0 58px 0 58px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.donation-amounts li {
-    padding: 0;
-    margin: 0;
-    font-weight: 500;
     font-size: 26px;
-    line-height: 36.4px;
+}
+.donate-line-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 27px;
+    margin-top: 17px;
+    width: 100%;
+}
+.bottom-part {
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+.bottom-part-placeholder{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 27px;
+    width: 268px;
+    height: 54px;
+    border: 1px solid #929699;
+    border-radius: 2px;
+    color: #929699;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+}
+.radio-1{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 34px;
+}
+.radio-1-2{
+    margin-left: 50px;
+}
+.radio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
     color: #333B41;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 .how-it-works-button {
     width: 298px;
     height: 54px;
@@ -305,7 +366,7 @@ header {
     align-items: center;
     justify-content: center;
     margin: auto;
-    margin-top: 60px;
+    margin-bottom: 30px;
 }
 .how-it-works-button p, .how-it-works-button a {
     text-transform: uppercase;
@@ -315,6 +376,14 @@ header {
     font-size: 16px;
     text-align: center;
     text-decoration: none;
+}
+.pick-and-feed-p-3{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #333B41;
 }
 
 /* BLOCK: FOOTER */
@@ -468,4 +537,40 @@ footer {
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+/* INTERACTIVE */
+
+.button:hover{
+    cursor: pointer;
+    background: #000000;
+}
+.button-2:hover{
+    cursor: pointer;
+    background: #000000;
+    color: #F1F3F2;
+}
+.header-content-left li > a::after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    top: 5px;
+    border-radius: 5px;
+    background: transparent;
+    transition: all 0.3s;
+}
+.header-content-left li > a:hover::after, li > a.active-nav::after {
+    width: 100%;
+    background: #FE9013;
+}
+.header-content-right a:hover {
+    color: #FE9013;
+}
+.footer-ul img:hover {
+    height: 28px;
+}
+.float-bottom a:hover {
+    font-size: 18px;
 }
