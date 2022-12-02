@@ -37,23 +37,26 @@ header {
     justify-content: center;
 }
 .header-content-left {
+    display: flex;
+    align-items: center;
     height: 100%;
-    width: 50%;
+    width: 60%;
 }
 .navbar-logo {
     width: 82px;
     height: 52px;
+    margin-right: 34px;
+    margin-top: 3px;
 }
 .header-content-left ul {
     list-style-type: none;
     margin: 0;
-    padding: 12px 0 0 0;
+    padding: 0;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 .header-content-left li {
-    padding: 0;
+    padding: 0 29px 0 29px;
     margin: 0;
 }
 .header-content-left a {
@@ -67,10 +70,7 @@ header {
 }
 .header-content-right {
     height: 100%;
-    width: 50%;
-}
-.header-content-right {
-    height: 100%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -82,7 +82,7 @@ header {
     line-height: 22.4px;
     font-weight: 500;
     padding: 0;
-    margin: 0;
+    margin: 0 1px 0 0;
 }
 
 /* BLOCK: Big PANDA */
@@ -400,33 +400,32 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* overflow: hidden; */
 }
 .footer-content {
     width: 1160px;
     height: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
-.footer-block {
-    width: 33%;
-    height: 443px;
-}
 .footer-left {
-    width: 33%;
-    height: 343px;
-    display: grid;
+    height: 100%;
+    width: 34%;
 }
 .footer-logo {
+    margin-top: 41px;
     width: 82px;
     height: 52px;
 }
 .footer-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 298px;
     height: 54px;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border-radius: 5px;
-    margin-top: 68px;
+    margin-top: 65px;
     margin-bottom: 44px;
 }
 .footer-button p, .footer-button a {
@@ -458,7 +457,7 @@ footer {
     line-height: 22.4px;
 }
 .footer-ul li {
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .social_txt {
     margin-left: 12px;
@@ -468,16 +467,27 @@ footer {
     align-items: center;
 }
 .footer-central {
-    width: 34%;
-    height: 343px;
     position: relative;
+    height: 100%;
+    width: 33%;
+}
+.float-bottom {
+    margin-bottom: 50px;
+}
+.float-bottom_margin {
+    margin: 0 29px 0 29px;
+}
+.float-bottom_margin_1 {
+    margin: 0 29px 0 3px;
+}
+.float-bottom_margin_2 {
+    margin: 0 0 0 29px;
 }
 .footer-central ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
 }
 .footer-central li, .footer-central a {
     display: block;
@@ -486,7 +496,7 @@ footer {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
-    line-height: 22.4px;
+    padding: 0;
 }
 .float-bottom {
     width: 100%;
@@ -495,17 +505,19 @@ footer {
     bottom: 0;
 }
 .footer-right {
+    height: 100%;
     width: 33%;
-    height: 343px;
 }
 .footer-right-up {
     height: 50%;
     width: 100%;
 }
 .footer-right-down {
-    height: 50%;
-    width: 100%;
-    position: relative;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 .footer-right p {
     padding: 0;
@@ -516,33 +528,34 @@ footer {
     font-size: 24px;
     line-height: 28.8px;
     color: #FFFFFF;
-    margin-bottom: 14px;
+    margin: 41px 0 13px 15px;
 }
 .input-area {
     border: 2px solid #FE9013;
     border-radius: 2px;
     width: 228px;
-    height: 42px;
+    height: 43px;
     padding: 0;
-    margin: 0;
+    margin: 0 0 0 15px;
 }
 ::placeholder {
     color: #BDBDBD;
+    background-color: #000000;
     opacity: 1;
     font-weight: 400;
     font-size: 16px;
     line-height: 22.4px;
     padding: 10px;
-    box-sizing: border-box;
 }
 .button-submit {
     background: #F1F3F2;
     border: 1px solid #333B41;
     border-radius: 5px;
     width: 129px;
-    height: 46px;
-    margin-left: 10px;
+    height: 45px;
+    margin-left: 6px;
     color: #000000;
+    font-size: 16px;
 }
 .footer-right-down-p1 {
     margin: 0 !important;
@@ -550,9 +563,8 @@ footer {
     font-size: 16px !important;
     line-height: 20.8px !important;
     color: #FFFFFF !important;
-    position: absolute;
-    bottom: 26px;
-    right: 5px;
+    text-align: right;
+    margin: 0 4px 12px 0 !important;
 }
 .footer-right-down-p2 {
     margin: 0 !important;
@@ -560,9 +572,6 @@ footer {
     font-size: 16px !important;
     line-height: 20.8px !important;
     color: #FFFFFF !important;
-    position: absolute;
-    bottom: 0;
-    right: 0;
 }
 
 /* INTERACTIVE */
