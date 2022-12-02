@@ -28,6 +28,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
 }
 .header-content {
     width: 1160px;
@@ -98,16 +99,6 @@ header {
     align-items: center;
     justify-content: center;
 }
-.round-button-1 {
-    margin-left: 1350px;
-}
-.round-button-2 {
-    margin-right: 1350px;
-}
-.round-button img {
-    width: 16px;
-    height: 8px;
-}
 .favorite-animal-block {
     background-image: url(../../assets/images/Giant_Panda.png);
     width: 100%;
@@ -120,14 +111,14 @@ header {
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border-radius: 100%;
     margin-left: 807px;
-    margin-top: 12px;
+    margin-top: 92px;
     position: absolute;
 }
 .text {
     width: 500.31px;
     height: 400px;
     margin-left: 880px;
-    margin-top: 86px;
+    margin-top: 166px;
     position: absolute;
 }
 .text p {
@@ -177,6 +168,7 @@ header {
     display: flex;
     align-items: center;
     justify-content:right;
+    margin: 55px 0 0 55px;
 }
 .column1-img {
     height: 403px;
@@ -185,38 +177,41 @@ header {
 .column2 {
     height: 100%;
     width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .sub-column2 {
-    width: 465px;
+    width: 550px;
     height: 403px;
 }
 .sub-column2 h2 {
     font-size: 48px;
     line-height: 57.6px;
     font-weight: 400;
-    margin: 0;
+    margin: 140px 0 0 87px;
 }
 .sub-column2-first-p {
     font-size: 16px;
     line-height: 20.8px;
     font-weight: 400;
+    margin: 21px 0 0 87px;
 }
 .sub-column2-second-p {
     font-size: 24px;
     line-height: 28.8px;
     font-weight: 400;
+    margin: 55px 0 0 87px;
 }
 .sub-column2-third-p {
     font-size: 16px;
     line-height: 22.4px;
     font-weight: 400;
+    margin: 33px 0 0 87px;
 }
+
+/* Six Card DIV */
+
 .six-card-main {
     width: 100%;
-    height: 1100px;
+    height: 1147px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -224,20 +219,22 @@ header {
 }
 .six-card {
     width: 1260px;
-    height: 950px;
+    height: 895px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     position: relative;
     overflow: hidden;
+    margin-top: -87px;
 }
 .card-div {
     height: 426px;
     width: 366px;
-    margin: 25px;
+    margin: 0px 15px 0px 15px;
     border: 2px solid #fc8b22;
     border-radius: 5px;
+    overflow: hidden;
 }
 .card-bottom-button {
     width: 298px;
@@ -247,8 +244,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto;
-    margin-bottom: 50px;
+    bottom: 47px;
+    position: absolute;
 }
 .card-bottom-button p {
     text-transform: uppercase;
@@ -257,6 +254,11 @@ header {
     line-height: 22.4px;
     font-size: 16px;
     text-align: center;
+}
+.card-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .card-main-img {
     height: 366px;
@@ -267,30 +269,45 @@ header {
 }
 .card-main-txt {
     position: relative;
+    z-index: -1;
 }
 .card-main-txt h4 {
     text-transform: uppercase;
     line-height: 22.4px;
     font-size: 16px;
-    padding: 0;
     margin: 0;
-    padding-left: 10px;
+    padding: 6px 0 0 12px;
 }
 .card-main-txt p {
-    text-transform: uppercase;
     line-height: 18px;
     font-size: 15px;
     font-weight: 300;
-    padding: 0;
     margin: 0;
-    padding-left: 10px;
+    padding: 0 0 0 12px;
 }
-.card-main-txt img {
-    width: 33px;
-    height: 29.15px;
+.card-main-txt_banana {
+    height: 35px;
     position: absolute;
-    left: 321px;
-    top: 15px;
+    left: 320px;
+    top: 10px;
+}
+.card-main-txt_fish {
+    height: 40px;
+    position: absolute;
+    left: 305px;
+    top: 5px;
+}
+.round-button-1 {
+    margin-left: 1261px;
+    margin-top: -93px;
+}
+.round-button-2 {
+    margin-right: 1261px;
+    margin-top: -93px;
+}
+.round-button img {
+    width: 16px;
+    height: 8px;
 }
 
 /* BLOCK: Pick AND Feed */
@@ -303,6 +320,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 55px;
 }
 .pick-and-feed-inner-div {
     height: 835px;
@@ -311,6 +329,7 @@ header {
     border-radius: 20px;
     height: 835px;
     width: 1160px;
+    margin-top: -35px;
 }
 .pick-and-feed-text h2 {
     color: #FE9013;
@@ -318,7 +337,7 @@ header {
     font-size: 48px;
     line-height: 57.6px;
     text-align: center;
-
+    margin-bottom: 32px;
 }
 .emergency-link {
     color: black;
@@ -336,12 +355,14 @@ header {
     line-height: 20.8px;
     font-size: 16px;
     padding-left: 99px;
+    margin-top: 40px;
 }
 .pick-and-feed-text-3 {
     font-weight: 400;
     line-height: 20.8px;
     font-size: 16px;
     padding-left: 99px;
+    margin-top: -5px;
 }
 .pick-and-feed-text h3 {
     color: #333B41;
@@ -349,10 +370,10 @@ header {
     font-size: 36px;
     line-height: 46.8px;
     text-align: center;
+    margin-top: 60px;
 }
 .how-it-works {
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 .how-it-works-divs {
@@ -364,6 +385,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 3px;
 }
 .how-it-works-1-img {
     height: 60px;
@@ -381,7 +403,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-top: 65px;
 }
 .arrow {
     width: 69px;
@@ -412,6 +434,9 @@ header {
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
 }
 
 /* Testimonials block */
@@ -432,7 +457,7 @@ header {
     line-height: 46.8px;
     padding: 0;
     margin: 0;
-    padding-top: 140px;
+    padding-top: 138px;
     padding-bottom: 47px;
 }
 .testimonials-columns {
@@ -443,7 +468,7 @@ header {
     justify-content: center;
 }
 .testimonials-columns-inner {
-    width: 1207px;
+    width: 1157px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -459,15 +484,15 @@ header {
 .testimonials-column img {
     height: 37px;
     width: 37px;
-    padding-left: 16px;
-    padding-top: 15px;
+    margin-left: 12px;
+    margin-top: 12px;
 }
 .testimonials-column-top {
     display: flex;
     align-items: center;
 }
 .testimonials-column-top h4 {
-    padding: 15px 0 1px 10px;
+    padding: 14px 0 1px 10px;
     margin: 0;
     font-style: normal;
     font-weight: 400;
@@ -485,7 +510,7 @@ header {
 }
 
 .testimonials-column p {
-    padding: 10px 15px 19px 15px;
+    padding: 10px 15px 19px 13px;
     margin: 0;
     font-weight: 300;
     font-size: 15px;
@@ -498,7 +523,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 22px;
+    padding-top: 24px;
 }
 .line-scrol-full {
     width: 599px;
@@ -523,7 +548,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 37px;
     margin-left: 220px;
 }
 .testimonials-button p {
@@ -544,7 +569,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* overflow: hidden; */
 }
 .footer-content {
     width: 1160px;
@@ -557,7 +581,7 @@ footer {
     width: 34%;
 }
 .footer-logo {
-    margin-top: 41px;
+    margin-top: 37px;
     width: 82px;
     height: 52px;
 }
@@ -569,7 +593,7 @@ footer {
     height: 54px;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border-radius: 5px;
-    margin-top: 65px;
+    margin-top: 67px;
     margin-bottom: 44px;
 }
 .footer-button p, .footer-button a {
@@ -616,7 +640,7 @@ footer {
     width: 33%;
 }
 .float-bottom {
-    margin-bottom: 50px;
+    margin-bottom: 53px;
 }
 .float-bottom_margin {
     margin: 0 29px 0 29px;
@@ -738,9 +762,9 @@ footer {
     color: #4B9200;
     border-color: #4B9200;
 }
-.card-main-img:hover {
+.card-main:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.3);
     transition: 0.5s;
 }
 .hovercap {
@@ -751,17 +775,12 @@ footer {
     box-sizing: border-box;
     text-transform: uppercase;
     text-align: center;
-    width: 200px;
+    width: 360px;
 }
 .card-main:hover .hovercap {
     visibility: visible; opacity: 1;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-}
-.card-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .round-button:hover {
     cursor: pointer;
@@ -776,29 +795,33 @@ footer {
 .float-bottom a:hover {
     color: #FE9013;
 }
+.footer-ul a:active {
+    color: #4B9200;
+}
 
 /* Side Flowers */
 
 .side-flower-1 {
-    height: 605px;
+    height: 615px;
     position: absolute;
-    right: -50px;
+    right: 0;
+    top: 10px
 }
 .side-flower-2 {
-    height: 350px;
+    height: 460px;
     position: absolute;
-    bottom: -105px;
+    bottom: -55px;
     left: 0px;
 }
 .side-flower-3 {
-    height: 230px;
+    height: 275px;
     position: absolute;
     right: -0px;
-    bottom: -105px;
+    bottom: -55px;
 }
 .side-flower-4 {
-    height: 295.45px;
+    height: 405px;
     position: absolute;
     right: 0px;
-    bottom: -95px;
+    bottom: -130px;
 }
