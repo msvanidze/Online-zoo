@@ -150,6 +150,9 @@ header {
     font-size: 16px;
     text-align: center;
 }
+
+/* BLOCK: Guy with HAT */
+
 .backstage-block {
     height:629px;
     width: 100%;
@@ -159,9 +162,6 @@ header {
     position: relative;
     overflow: hidden;
 }
-
-/* BLOCK: Guy with HAT */
-
 .column1 {
     height: 100%;
     width: 50%;
@@ -173,6 +173,9 @@ header {
 .column1-img {
     height: 403px;
     width: 609px;
+}
+.column1-img_small {
+    display: none;
 }
 .column2 {
     height: 100%;
@@ -205,6 +208,9 @@ header {
     line-height: 22.4px;
     font-weight: 400;
     margin: 33px 0 0 87px;
+}
+.sub-column2-third-p_small {
+    display: none;
 }
 
 /* Six Card DIV */
