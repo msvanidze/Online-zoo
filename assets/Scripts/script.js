@@ -1,1 +1,1 @@
-alert("Responsive Design is Coming Soon :)")
+alert("Need 2 more Days :)")

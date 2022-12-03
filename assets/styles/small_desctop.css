@@ -1,0 +1,152 @@
+@media all and (min-width: 1000px) and (max-width: 1440px){
+    body {
+        max-width: 1000px;
+    }
+
+/* BLOCK: Header/Navigation */
+
+    header {
+        z-index: 1;
+        width: 1000px;
+    }
+    .header-content {
+        width: 930px;
+    }
+    .header-content-left {
+        width: 70%;
+    }
+    .header-content-right {
+        width: 30%;
+    }
+    .navbar-logo {
+        margin-left: -5px;
+        margin-right: 39px;
+    }
+    .header-content-left li {
+        padding: 0 24px 0 24px;
+    }
+    .header-content-right p {
+        margin-right: -5px;
+    }
+
+/* BLOCK: Big PANDA */
+
+    .favorite-animal-block {
+        height: 584px;
+        background-image: url(../../assets/images/small_desctop/Giant\ Panda.png);
+    }
+    .cirkle {
+        width: 367px;
+        height: 367px;
+        border-radius: 100%;
+        margin-left: 455px;
+        margin-top: 70px;
+        z-index: 0;
+    }
+    .text {
+        width: 400.25px;
+        height: 320px;
+        margin-left: 514px;
+        margin-top: 124px;
+    }
+    .text p {
+        font-size: 85.2px;
+        line-height: 63.9px;
+    }
+    .button-watch {
+        margin-left: 567px;
+        margin-top: 482px;
+    }
+
+/* BLOCK: Guy with HAT */
+
+    .side-flower-1 {
+        display: none;
+    }
+    .backstage-block {
+        height:626px;
+    }
+    .column1 {
+        margin: 0 0 0 0;
+    }
+    .column1-img {
+    display: none;
+    }
+    .column1-img_small {
+        height: 408px;
+        width: 455px;
+        display: block;
+        margin-right: 15px;
+    }
+    .column2 {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sub-column2 {
+        height: 408px;
+        width: 455px;
+        margin-left: -13px;
+        margin-top: -19px;
+    }
+    .sub-column2 h2 {
+        font-size: 48px;
+        line-height: 57.6px;
+        font-weight: 400;
+        margin: 0;
+    }
+    .sub-column2-first-p {
+        font-size: 16px;
+        line-height: 20.8px;
+        font-weight: 400;
+        margin: 21px 0 0 0;
+    }
+    .sub-column2-second-p {
+        font-size: 24px;
+        line-height: 28.8px;
+        font-weight: 400;
+        margin: 55px 0 0 0;
+    }
+    .sub-column2-third-p {
+        display: none;
+    }
+    .sub-column2-third-p_small{
+        display: block;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: 400;
+        margin: 32px 0 0 0;
+    }
+
+
+
+
+/* Six Card DIV */
+
+    .round-button-1 {
+        margin-left: 500px;
+        margin-top: -93px;
+    }
+    .round-button-2 {
+        margin-right: 500px;
+        margin-top: -93px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
