@@ -217,10 +217,135 @@
 
 /* BLOCK: Pick AND Feed */
 
+.pick-and-feed {
+    height: 876px;
+    width: 1000px;
+    margin-top: 48px;
+}
+.pick-and-feed-inner-div {
+    height: 796px;
+    width: 940px;
+    margin-top: -20px;
+}
+.pick-and-feed-text h2 {
+    margin-top: 30px;
+}
+.pick-and-feed-text-1 {
+    padding-left: 49px;
+    margin-top: -12px;
+}
+.pick-and-feed-text-2 {
+    padding-left: 49px;
+    margin-top: -3px;
+}
+.pick-and-feed-text-3 {
+    padding-left: 49px;
+}
+.br_display {
+    display: block;
+}
+.br_display_2 {
+    display: none;
+}
+.pick-and-feed-text h3 {
+    margin-top: 40px;
+}
+.how-it-works-button {
+    margin-top: 70px;
+}
 
+/* Testimonials block */
 
+.testimonials {
+    height: 842px;
+}
+.testimonials-text h3 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.testimonials-column_small {
+    display: none;
+}
+.testimonials-column_small_order1 {
+    order: 1;
+    margin-left: 12px;
+}
+.testimonials-column_small_order2 {
+    order: 3;
+    margin-right: 12px;
+}
+.testimonials-column_small_order3 {
+    order: 2;
+}
+.testimonials-columns-inner {
+    justify-content: space-around;
+}
+.testimonials-column {
+    width: 293px;
+}
+.testimonials-column img {
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.testimonials-column-top_h4_1_small, .testimonials-column-top_p_1_small {
+    display: none;
+}
+.testimonials-column-top_h4_2_small, .testimonials-column-top_p_2_small {
+    display: block;
+}
+.line-scrol-full {
+    width: 390px;
+    margin-right: 10px;
+}
+.line-scrol-left {
+    width: 75px;
+}
+.testimonials-button {
+    margin-top: 56px;
+    margin-left: 30px;
+}
+.side-flower-4 {
+    height: 325px;
+    right: 0px;
+    bottom: -85px;
+}
 
+/* FOOTER block */
 
+.footer-content {
+    width: 100%;
+}
+.footer-logo {
+    margin: 40px 0 0 30px;
+}
+.footer-button {
+    border-radius: 5px;
+    margin: 65px 0 44px 30px;
+}
+.footer-ul {
+    margin-left: 30px;
+}
+.float-bottom_margin {
+    margin: 0 25px 0 25px;
+}
+.float-bottom_margin_1 {
+    margin: 0 25px 0 -20px;
+}
+.float-bottom_margin_2 {
+    margin: 0 0 0 20px;
+}
+.float-bottom {
+    margin-bottom: 51px;
+}
+.footer-right-up p, .input-area {
+    margin-left: -100px;
+}
+.footer-right-down-p1 {
+    margin-right: 32px !important;
+}
+.footer-right-down-p2 {
+    margin-right: 28px !important;
+}
 
 
 
