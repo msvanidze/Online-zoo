@@ -266,6 +266,9 @@ header {
     align-items: center;
     justify-content: center;
 }
+.smallh4, .smallp, .card-main-img_small {
+    display: none;
+}
 .card-main-img {
     height: 366px;
     width: 366px;
@@ -302,6 +305,9 @@ header {
     position: absolute;
     left: 305px;
     top: 5px;
+}
+.card-main-txt_fish_small {
+    display: none;
 }
 .round-button-1 {
     margin-left: 1261px;
@@ -703,7 +709,7 @@ footer {
     font-size: 24px;
     line-height: 28.8px;
     color: #FFFFFF;
-    margin: 41px 0 13px 15px;
+    margin: 39px 0 13px 15px;
 }
 .input-area {
     border: 2px solid #FE9013;
@@ -774,7 +780,8 @@ footer {
     transition: 0.5s;
 }
 .hovercap {
-    visibility: none; opacity: 0;
+    visibility: none;
+    opacity: 0;
     transition: opacity 0.3s;
     position: absolute;
     z-index: 3;
@@ -784,7 +791,8 @@ footer {
     width: 360px;
 }
 .card-main:hover .hovercap {
-    visibility: visible; opacity: 1;
+    visibility: visible;
+    opacity: 1;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
@@ -822,8 +830,11 @@ footer {
 .side-flower-3 {
     height: 275px;
     position: absolute;
-    right: -0px;
+    right: 0px;
     bottom: -55px;
+}
+.side-flower-2_small, .side-flower-3_small {
+    display: none;
 }
 .side-flower-4 {
     height: 405px;
