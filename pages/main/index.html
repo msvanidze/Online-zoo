@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../assets/styles/style_main.css">
-    <link rel="stylesheet" href="../../assets/styles/small_desctop.css">
+    <link rel="stylesheet" href="../../assets/styles/style_main_small.css">
+    <link rel="stylesheet" href="../../assets/styles/style_main_tablet.css">
+    <link rel="stylesheet" href="../../assets/styles/style_main_mobile.css">
     <title>online-zoo</title>
 </head>
 <body>
-    <header>
+    <header class="hide_when_small">
         <h1 class="invisible" id="anchor-one">PetStory Online</h1>
         <div class="header-content">
             <div class="header-content-left">
@@ -27,7 +29,20 @@
             </div>
         </div>
     </header>
+    <header class="show_when_small">
+        <a href="https://msvanidze.github.io/Online-zoo/pages/main/"><img class="navbar-logo_small" src="../../assets/images/tablet/PetStory online.png" alt="PetStory_Logo"></a>
+        <a href="https://msvanidze.github.io/Online-zoo/pages/main/"><img class="navbar-burger_small" src="../../assets/images/tablet/burger_menu.png" alt="burger_Logo"></a>
+    </header>
     <div class="favorite-animal-block">
+        <div class="cirkle"></div>
+        <div class="text">
+            <p>Watch your <span>favorite</span> animal online</p>
+        </div>
+        <div class="button-watch button">
+            <p>Watch online</p>
+        </div>
+    </div>
+    <div class="favorite-animal-block_tablet">
         <div class="cirkle"></div>
         <div class="text">
             <p>Watch your <span>favorite</span> animal online</p>
@@ -50,13 +65,18 @@
                 <p class="sub-column2-third-p">The main goal is to help the animals, as well as the nature reserves and zoos where they are kept. We are currently working on video projects targeting pandas in China, eagles on an island near Los Angeles, alligators in Florida and gorillas in the Congo. These have a total of more than 1,500 mammals and reptiles.</p>
                 <p class="sub-column2-third-p_small">The main goal is to help the animals, as well as the nature reserves and zoos where they are kept. We are currently <br> working on video projects targeting pandas in China, eagles on an island near Los Angeles, alligators in Florida and gorillas in the Congo. These have a total of more than 1,500 mammals <br> and reptiles.</p>
             </div>
+            <div class="side_flover_tablet_1">
+                <img src="../../assets/images/tablet/flower_foto1.png" alt="flower">
+            </div>
         </div>
     </div>
     <div class="six-card-main">
         <img class="side-flower-2" src="../../assets/images/side flowers/palm_foto.png" alt="flower-2">
         <img class="side-flower-3" src="../../assets/images/side flowers/strelitzia 1.png" alt="flower-3">
+        <img class="side-flower-2_small" src="../../assets/images/small_desctop/palm_foto.png" alt="flower-2">
         <img class="side-flower-3_small" src="../../assets/images/small_desctop/strelitzia 1.png" alt="flower-3">
-        <img class="side-flower-2_small" src="../../assets/images/small_desctop/palm_foto.png" alt="flower-3">
+        <img class="side-flower-2_tablet" src="../../assets/images/tablet/palm_foto.png" alt="flower-2">
+        <img class="side-flower-3_tablet" src="../../assets/images/tablet/strelitzia 1.png" alt="flower-3">
         <div class="round-button round-button-1">
             <img src="../../assets/icons/arrows/right.png" alt="arrow">
         </div>
@@ -164,11 +184,15 @@
             <div class="pick-and-feed-text">
                 <h2>Pick and feed a friend</h2>
                 <p class="pick-and-feed-text-1">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
-                <p class="pick-and-feed-text-2">During a time when the COVID-19 epidemic is touching all of our lives, we’re proud and glad that people around <br class="br_display"> the world find joy in PetStory.</p>
+                <p class="pick-and-feed-text-2">During a time when the COVID-19 epidemic is touching all of our lives, we’re proud <br class="br_display_3"> and glad that people around <br class="br_display"> the world find joy in PetStory.</p>
                 <p class="pick-and-feed-text-3">Even though the zoo has reopened, we need you now more than ever to help us deal with these problems. Please <br class="br_display"> consider <br class="br_display_2">a gift to our <a class="emergency-link" href="https://msvanidze.github.io/Online-zoo/pages/donate">Emergency Support Fund.</a></p>
                 <h3>How it works</h3>
             </div>
             <div class="how-it-works">
+                <div class="arrow_tablet">
+                    <img src="../../assets/images/tablet/arrow.png" alt="arrow">
+                    <img src="../../assets/images/tablet/arrow.png" alt="arrow">
+                </div>
                 <div class="how-it-works-1">
                     <div class="how-it-works-divs">
                         <img class="how-it-works-1-img" src="../../assets/icons/how/pay.png" alt="card-logo">
@@ -287,6 +311,44 @@
                         ljves to watch gouillas. Online zoo is one jf the ways to instill a love for
                     </p>
                 </div>
+                <div class="testimonials_tablet">
+                    <div class="testimonials_tablet_columns">
+                        <div class="testimonials-column-top_tablet">
+                            <img src="../../assets/icons/testimonials/john1.png" alt="user_icon">
+                            <div>
+                                <h4>Michael John</h4>
+                                <h5>Local Austria • Today</h5>
+                            </div>
+                        </div>
+                        <p>The best online zoo I’ve met. My son delighted very much ljves to watch gouillas. Online zoo is one
+                            jf the ways to instill a love for animals.The best online zoo I’ve met.
+                        </p>
+                    </div>
+                    <div class="testimonials_tablet_columns">
+                        <div class="testimonials-column-top_tablet">
+                            <img src="../../assets/icons/testimonials/mila4.png" alt="user_icon">
+                            <div>
+                                <h4>Oska Samborska</h4>
+                                <h5>Local Austria • Yesterday</h5>
+                            </div>
+                        </div>
+                        <p>My son delighted very much ljves to watch gouillas. Online zoo is one jf the ways to instill a love
+                            for animals.The best online zoo I’ve met.The best online zoo I’ve met. My
+                        </p>
+                    </div>
+                    <div class="testimonials_tablet_columns">
+                        <div class="testimonials-column-top_tablet">
+                            <img src="../../assets/icons/testimonials/federicka3.png" alt="user_icon">
+                            <div>
+                                <h4>Fredericka Michelin</h4>
+                                <h5>Local Austria • Yesterday</h5>
+                            </div>
+                        </div>
+                        <p>Online zoo is one jf the ways to instill a love for animals.The best online zoo I’ve met. My son delighted
+                             very much ljves to watch gouillas. The best online zoo I’ve met. My
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="line-scrol">
@@ -334,6 +396,32 @@
                     <p class="footer-right-down-p1">Designed by Alisa Samborskaya</p>
                     <p class="footer-right-down-p2">©RSSchool & ©Yem Digital 2021</p>
                 </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="footer_tablet">
+        <div class="footer_tablet_left">
+            <a href="https://msvanidze.github.io/Online-zoo/pages/main/"><img class="footer-logo_tablet" src="../../assets/icons/logo4x.png" alt="logo"></a>
+            <div class="footer-button button">
+                <a href="https://msvanidze.github.io/Online-zoo/pages/donate"><p>donate for volunteers</p></a>
+            </div>
+            <ul>
+                <li><a class="footer_tablet_left_li_1" href="https://msvanidze.github.io/Online-zoo/pages/main/">About</a></li>
+                <li><a class="footer_tablet_left_li_2" href="#">Map</a></li>
+                <li><a class="footer_tablet_left_li_3" href="#">Zoos</a></li>
+                <li><a class="footer_tablet_left_li_4" href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="footer_tablet_right">
+            <ul class="footer-ul footer-ul_tablet">
+                <li><a href="https://www.facebook.com/" target="_blank"><img class="footer-ul_tablet_social_1" src="../../assets/icons/social/facebook.png" alt="FB-Logo"></a></li>
+                <li><a href="https://twitter.com/" target="_blank"><img class="footer-ul_tablet_social_2" src="../../assets/icons/social/twitter.png" alt="Twitter-Logo"></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><img class="footer-ul_tablet_social_3" src="../../assets/icons/social/instagram.png" alt="Instagram-Logo"></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank"><img class="footer-ul_tablet_social_4" src="../../assets/icons/social/youtube.png" alt="YT-Logo"></a></li>
+            </ul>
+            <div class="footer-right-down footer-right-down_tablet">
+                <p class="footer-right-down-p1">Designed by Alisa Samborskaya</p>
+                <p class="footer-right-down-p2">©RSSchool & ©Yem Digital 2021</p>
             </div>
         </div>
     </footer>

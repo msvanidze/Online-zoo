@@ -30,6 +30,9 @@ header {
     align-items: center;
     position: absolute;
 }
+.show_when_small {
+    display: none;
+}
 .header-content {
     width: 1160px;
     height: 100%;
@@ -86,7 +89,6 @@ header {
     margin: 0 1px 0 0;
 }
 
-
 /* BLOCK: Big PANDA */
 
 .round-button {
@@ -104,6 +106,9 @@ header {
     width: 100%;
     height: 780px;
     background-size: cover;
+}
+.favorite-animal-block_tablet {
+    display: none;
 }
 .cirkle {
     width: 465px;
@@ -210,6 +215,9 @@ header {
     margin: 33px 0 0 87px;
 }
 .sub-column2-third-p_small {
+    display: none;
+}
+.side_flover_tablet_1 {
     display: none;
 }
 
@@ -370,7 +378,7 @@ header {
     padding-left: 99px;
     margin-top: -5px;
 }
-.br_display {
+.br_display, .br_display_3 {
     display: none;
 }
 .emergency-link {
@@ -418,6 +426,9 @@ header {
     align-items: center;
     justify-content: center;
     margin-top: 65px;
+}
+.arrow_tablet {
+    display: none;
 }
 .arrow {
     width: 69px;
@@ -514,7 +525,7 @@ header {
     line-height: 19px;
     color: #000000;
 }
-.testimonials-column-top_h4_2_small, .testimonials-column-top_p_2_small {
+.testimonials-column-top_h4_2_small, .testimonials-column-top_p_2_small, .testimonials_tablet {
     display: none;
 }
 .testimonials-column-top h5 {
@@ -586,6 +597,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.footer_tablet {
+    display: none;
 }
 .footer-content {
     width: 1160px;
@@ -838,7 +852,7 @@ footer {
     right: 0px;
     bottom: -55px;
 }
-.side-flower-2_small, .side-flower-3_small {
+.side-flower-2_small, .side-flower-3_small, .side-flower-2_tablet, .side-flower-3_tablet {
     display: none;
 }
 .side-flower-4 {
@@ -846,4 +860,11 @@ footer {
     position: absolute;
     right: 0px;
     bottom: -130px;
+}
+
+@media (max-width: 319.9px){
+    body {
+        min-width: 1600px;
+        overflow: visible;
+    }
 }
