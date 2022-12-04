@@ -120,19 +120,102 @@
         margin: 32px 0 0 0;
     }
 
-
-
-
 /* Six Card DIV */
 
     .round-button-1 {
-        margin-left: 500px;
-        margin-top: -93px;
+        margin-left: 232px;
+        margin-top: 412px;
     }
     .round-button-2 {
-        margin-right: 500px;
-        margin-top: -93px;
+        margin-right: 232px;
+        margin-top: 412px;
     }
+    .card-div {
+        height: 355px;
+        width: 294px;
+        margin: 0px 14.5px 0px 14.5px;
+    }
+    .card-main-img {
+        height: 294px;
+        width: 294px;
+    }
+    .six-card-main {
+        width: 100%;
+        height: 1070px;
+        align-items: flex-start;
+    }
+    .six-card {
+        height: 895px;
+        width: 1260px;
+        margin-top: -5px;
+    }
+    .card-div1 {
+        order: 1;
+    }
+    .card-div2 {
+        order: 2;
+    }
+    .card-div3 {
+        order: 4;
+    }
+    .card-div4 {
+        order: 5;
+    }
+    .card-div5 {
+        order: 3;
+    }
+    .card-div6 {
+        order: 6;
+    }
+    .smallh4, .smallp, .card-main-img_small, .card-main-txt_fish_small {
+        display: block;
+    }
+    .bigh4, .bigp, .card-main-img_big, .card-main-txt_banana_big {
+        display: none;
+    }
+    .card-main-txt_banana {
+        left: 245px;
+        top: 10px;
+    }
+    .card-main-txt_fish {
+        left: 230px;
+        top: 5px;
+    }
+    .card-bottom-button {
+        bottom: 92px;
+    }
+    .card-main:hover {
+        transform: scale(1.2);
+    }
+
+
+/* BLOCK: Pick AND Feed */
+
+    .pick-and-feed {
+        margin-top: 48px;
+    }
+    .side-flower-3 {
+        display: none;
+    }
+    .side-flower-3_small {
+        display: block;
+        height: 180px;
+        bottom: -49px;
+        position: absolute;
+        right: 0px;
+    }
+    .side-flower-2 {
+        display: none;
+    }
+    .side-flower-2_small {
+        display: block;
+        height: 202px;
+        bottom: -49px;
+        position: absolute;
+        left: 0px;
+    }
+
+/* BLOCK: Pick AND Feed */
 
 
 
