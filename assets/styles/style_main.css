@@ -159,7 +159,7 @@ header {
 /* BLOCK: Guy with HAT */
 
 .backstage-block {
-    height:629px;
+    height: 629px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -217,7 +217,7 @@ header {
 .sub-column2-third-p_small {
     display: none;
 }
-.side_flover_tablet_1 {
+.side_flover_tablet_1, .mobile_br {
     display: none;
 }
 
@@ -350,6 +350,9 @@ header {
     width: 1160px;
     margin-top: -35px;
 }
+.pick-and-feed-inner-div_mobile {
+    display: none;
+}
 .pick-and-feed-text h2 {
     color: #FE9013;
     font-weight: 400;
@@ -427,7 +430,7 @@ header {
     justify-content: center;
     margin-top: 65px;
 }
-.arrow_tablet {
+.arrow_tablet, .arrow_mobile {
     display: none;
 }
 .arrow {
@@ -525,7 +528,7 @@ header {
     line-height: 19px;
     color: #000000;
 }
-.testimonials-column-top_h4_2_small, .testimonials-column-top_p_2_small, .testimonials_tablet {
+.testimonials-column-top_h4_2_small, .testimonials-column-top_p_2_small, .testimonials_tablet, .testimonials-column-top_p_2_mobile {
     display: none;
 }
 .testimonials-column-top h5 {
@@ -598,7 +601,7 @@ footer {
     align-items: center;
     justify-content: center;
 }
-.footer_tablet {
+.footer_tablet, .footer_mobile {
     display: none;
 }
 .footer-content {
@@ -840,6 +843,9 @@ footer {
     right: 0;
     top: 10px
 }
+.side-flower-1_mobile {
+    display: none;
+}
 .side-flower-2 {
     height: 460px;
     position: absolute;
@@ -852,7 +858,7 @@ footer {
     right: 0px;
     bottom: -55px;
 }
-.side-flower-2_small, .side-flower-3_small, .side-flower-2_tablet, .side-flower-3_tablet {
+.side-flower-4_mobile, .side-flower-2_small, .side-flower-3_small, .side-flower-2_tablet, .side-flower-3_tablet, .side-flower-2_mobile, .side-flower-3_mobile {
     display: none;
 }
 .side-flower-4 {

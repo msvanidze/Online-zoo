@@ -1,1 +1,1 @@
-alert("Will finish in 15 hours :)")
+// alert("Will finish in 15 hours :)")
